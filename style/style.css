@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  height: 100vh;
+  flex-wrap: wrap;
+  background: rgb(200, 42, 255);
+  background: linear-gradient(135deg, rgb(49, 53, 54) 30%, rgb(121, 114, 122) 100%);
+}
+body main .main-container {
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  height: 210px;
+  width: 210px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+body main .main-container h2 {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+}
+body main .main-container p {
+  margin: 0;
+  color: white;
+  font-size: 82px;
+}
+body main span {
+  font-weight: bolder;
+  font-size: 60px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
